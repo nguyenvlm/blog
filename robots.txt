@@ -1,1 +1,1 @@
-Sitemap: https://nguyenvlm.com/blog/sitemap.xml
+Sitemap: https://nguyenvlm.com/sitemap.xml
