@@ -8,7 +8,7 @@ I am a data science enthusiast with a passion for building data-driven solutions
 
 I am interested in a wide range of topics in computer science and data science. I am also a big fan of the open source community. Hopefully one day in the near future, I will be able to contribute to open source projects.
 
-I am always open to part-time remote opportunities, so feel free to contact me at [freelance.contact@nguyenvlm.com](mailto:freelance.contact@nguyenvlm.com) if you need a data scientist or machine learning engineer for your project.
+I am always open to freelance remote opportunities, so feel free to contact me at [freelance.contact@nguyenvlm.com](mailto:freelance.contact@nguyenvlm.com) if you need a data scientist or machine learning engineer for your project.
 
 ## Timeline
 

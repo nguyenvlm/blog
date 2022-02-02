@@ -1,5 +1,6 @@
 ---
 layout: none
+search_exclude: true
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
