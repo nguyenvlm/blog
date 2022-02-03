@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am a data science enthusiast with a passion for building data-driven solutions to business problems at large scale. I am currently working as a Data Scientist at [Be Group JSC](https://www.be.com.vn), a ride-haling and last-mile logistics company in Vietnam. My current focuses are on Vietnamese NLP (conversational chatbot, reply suggestion, etc.), route optimization, geo-spatial data analysis, and ML Ops.
+My name is Nguyen Vuong (Vương Lê Minh Nguyên). I am a data science enthusiast with a passion for building data-driven solutions to business problems at scale. I am currently working as a Data Scientist at [Be Group JSC](https://www.be.com.vn), a ride-haling and last-mile logistics company in Vietnam. My current focuses are on Vietnamese NLP (conversational chatbot, reply suggestion, etc.), route optimization, geo-spatial data analysis, and ML Ops.
 
 I am interested in a wide range of topics in computer science and data science. I am also a big fan of the open source community. Hopefully one day in the near future, I will be able to contribute to open source projects.
 
