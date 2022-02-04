@@ -3,4 +3,5 @@ layout: none
 search_exclude: true
 ---
 User-agent: *
+Disallow:
 Sitemap: {{ site.url }}/sitemap.xml
