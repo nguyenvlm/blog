@@ -168,14 +168,7 @@ window.onload = wrap_img;
 <h4 id="11-negative-log-likelihood">
 <a class="anchor" href="#11-negative-log-likelihood" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.1. Negative Log-Likelihood</h4>
 
-<table>
-  <tbody>
-    <tr>
-      <td>In a standard Machine Learning setting, given a set of $N$ independent and identically distributed (i.i.d.) observations $\mathcal{D} = {(x_1, y_1), \dots, (x_N, y_N)}$ consisting of $N$ inputs $x_i \in \mathbb{R}^D$ and $N$ outputs $y_i \in \mathbb{R}$, $i \in \left{x \in \mathbb{N}</td>
-      <td>1 \le x \le N \right}$, the maximum likelihood estimation of a set of parameters $\theta$ of a statistical model is a point in the parameter space that maximizes the likelihood of the observations:</td>
-    </tr>
-  </tbody>
-</table>
+<p>In a standard Machine Learning setting, given a set of $N$ independent and identically distributed (i.i.d.) observations $\mathcal{D} = {(x_1, y_1), \dots, (x_N, y_N)}$ consisting of $N$ inputs $x_i \in \mathbb{R}^D$ and $N$ outputs $y_i \in \mathbb{R}$, the maximum likelihood estimation of a set of parameters $\theta$ of a statistical model is a point in the parameter space that maximizes the likelihood of the observations:</p>
 
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mover accent="true"><mi>θ</mi><mo>^</mo></mover><mo>=</mo><mi>arg</mi><mo>⁡</mo><munder><mrow><mi>max</mi><mo>⁡</mo></mrow><mi>θ</mi></munder><mi mathvariant="script">L</mi><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\hat{\theta} = \arg \max_{\theta} \mathcal{L}(\theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9578799999999998em;vertical-align:0em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span><span style="top:-3.26344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mord">^</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.502108em;vertical-align:-0.752108em;"></span><span class="mop">ar<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.43055999999999994em;"><span style="top:-2.347892em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop">max</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.752108em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathcal">L</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span></span></span></span></span>
 
@@ -186,7 +179,7 @@ window.onload = wrap_img;
 <table>
   <tbody>
     <tr>
-      <td>where $\mathcal{P}(\mathcal{Y}</td>
+      <td>$\mathcal{P}(\mathcal{Y}</td>
       <td>\mathcal{X}, \theta)$ is the conditional PDF of the response vector $\mathcal{Y} := {y_1, \dots, y_N}$ given the data matrix $\mathcal{X} := {x_1, \dots, x_N}$ and the parameters $\theta$.</td>
     </tr>
   </tbody>
