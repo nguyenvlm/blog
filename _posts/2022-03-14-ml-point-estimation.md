@@ -21,7 +21,7 @@ In many machine learning algorithms such as linear regression, logistic regressi
 
 #### 1.1. Negative Log-Likelihood
 
-In a standard Machine Learning setting, given a set of $N$ independent and identically distributed (i.i.d.) observations $\mathcal{D} = \{(x_1, y_1), \dots, (x_N, y_N)\}$ consisting of $N$ inputs $x_i \in \mathbb{R}^D$ and $N$ outputs $y_i \in \mathbb{R}$, $i \in \left\{x \in \mathbb{N} | 1 \le x \le N \right\}$, the maximum likelihood estimation of a set of parameters $\theta$ of a statistical model is a point in the parameter space that maximizes the likelihood of the observations:
+In a standard Machine Learning setting, given a set of $N$ independent and identically distributed (i.i.d.) observations $\mathcal{D} = \{(x_1, y_1), \dots, (x_N, y_N)\}$ consisting of $N$ inputs $x_i \in \mathbb{R}^D$ and $N$ outputs $y_i \in \mathbb{R}$, the maximum likelihood estimation of a set of parameters $\theta$ of a statistical model is a point in the parameter space that maximizes the likelihood of the observations:
 
 $$
 \hat{\theta} = \arg \max_{\theta} \mathcal{L}(\theta)
@@ -33,7 +33,7 @@ $$
 \mathcal{L}(\theta) = \mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta)
 $$
 
-where $\mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta)$ is the conditional PDF of the response vector $\mathcal{Y} := \{y_1, \dots, y_N\}$ given the data matrix $\mathcal{X} := \{x_1, \dots, x_N\}$ and the parameters $\theta$.
+$\mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta)$ is the conditional PDF of the response vector $\mathcal{Y} := \{y_1, \dots, y_N\}$ given the data matrix $\mathcal{X} := \{x_1, \dots, x_N\}$ and the parameters $\theta$.
 
 Since the observations are assumed to be i.i.d., the likelihood function can be represented as a product of the probabilities of each observation:
 
