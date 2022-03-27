@@ -167,7 +167,7 @@ The $\lambda$ is called the regularization hyperparameter that controls the stre
 
 ## What's Next?
 
-In this post, I have introduced the perspective of point estimation in machine learning. From now on, when someone asks you "why we have to use binary cross-entropy as an objective function for logistic regression?", or "why we have to use the residual sum of squares as an objective function for linear regression?", convexity is not the only answer for them.
+In this post, I have introduced the perspective of point estimation in machine learning. From now on, when someone asks you "why do we have to use binary cross-entropy as an objective function for logistic regression?", or "why do we have to use the residual sum of squares as an objective function for linear regression?", convexity is not the only answer for them.
 
 There are further matters on the theory of point estimation to be considered, such as the interpretation of the estimates, the choice of the prior, Bayesian regression, etc. that can't be covered in a single blog post. There are also other interesting points of view on the motivation behind machine learning algorithms such as information theory, Bayesian inference, analytic geometry, etc., that I will try to cover in the future posts.
 
