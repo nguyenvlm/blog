@@ -163,7 +163,7 @@ $$
 \hat{\theta} = \arg \min_{\theta} - \ln{\mathcal{P}(\theta | \mathcal{X}, \mathcal{Y})} + \lambda \Vert\theta\Vert_2^2
 $$
 
-The $\lambda$ is called the regularization hyperparameter that controls the strength of the prior. The larger the $\lambda$, the more the posterior is regularized, and the smaller the parameters $\theta$ are estimated. In this case, the log-Gaussian prior $\mathcal{N}\left(0, \sqrt\frac{1}{2\lambda}\right)$ is equivalent to the L2 regularization term in Ridge regression. In fact, we can also use other regularization terms such as L1 (Lasso regression), or both L1 and L2 (Elastic Net).
+The $\lambda$ is called the regularization hyperparameter that controls the strength of the prior. The larger the $\lambda$, the more the posterior is regularized, and the smaller the parameters $\theta$ are estimated. In this case, the log-Gaussian prior $\mathcal{N}\left(0, \frac{1}{2\lambda}I\right)$ is equivalent to the L2 regularization term in Ridge regression. In fact, we can also use other regularization terms such as L1 (Lasso regression), or both L1 and L2 (Elastic Net).
 
 ## What's Next?
 
