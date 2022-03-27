@@ -27,13 +27,11 @@ $$
 \hat{\theta} = \arg \max_{\theta} \mathcal{L}(\theta)
 $$
 
-$\mathcal{L}(\theta)$ is the likelihood function of the parameters $\theta$ such that:
+$\mathcal{L}(\theta)$ is the likelihood function of the parameters $\theta$, which is equal to the conditional PDF of the response vector $\mathcal{Y} := \{y_1, \dots, y_N\}$ given the data matrix $\mathcal{X} := \{x_1, \dots, x_N\}$ and the parameters $\theta$:
 
 $$
 \mathcal{L}(\theta) = \mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta)
 $$
-
-$\mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta)$ is the conditional PDF of the response vector $\mathcal{Y} := \{y_1, \dots, y_N\}$ given the data matrix $\mathcal{X} := \{x_1, \dots, x_N\}$ and the parameters $\theta$.
 
 Since the observations are assumed to be i.i.d., the likelihood function can be represented as a product of the probabilities of each observation:
 
