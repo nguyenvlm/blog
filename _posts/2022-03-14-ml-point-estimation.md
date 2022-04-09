@@ -99,7 +99,7 @@ $$
 
 where $\sigma(\cdot)$ is the [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function).
 
-Given a dataset with many observations, the likelihood function of the logistic regression is then given by:
+As for a dataset with many observations, the likelihood function of the logistic regression is then given by:
 
 $$
 \mathcal{L}(\theta) = \prod_{i=1}^N \mathcal{P}(y_i | x_i, \theta) = \prod_{i=1}^N \sigma(x_i^T \theta)^{y_i} (1 - \sigma(x_i^T \theta))^{1 - y_i}
@@ -139,7 +139,7 @@ $$
 \hat{\theta} = \arg \max_{\theta} \mathcal{P}(\mathcal{Y} | \mathcal{X}, \theta) \mathcal{P}(\theta)
 $$
 
-Following the same procedure as in MLE, in order to maximize the posterior probability, we minimize the negative log-posterior with respect to the parameters $\theta$:
+Following the same procedure as in MLE, to maximize the posterior probability, we minimize the negative log-posterior with respect to the parameters $\theta$:
 
 $$
 \hat{\theta} = \arg \min_{\theta} \left\{- \ln{\mathcal{P}(\theta | \mathcal{X}, \mathcal{Y})} - \ln{\mathcal{P}(\theta)}  \right\}
@@ -160,10 +160,12 @@ $$
 We can ignore the constant term $-\ln\frac{1}{\sqrt{2\pi}\sigma}$ and minimize the negative log-prior with respect to the parameters $\theta$. We rewrite $\frac{1}{2\sigma^2}$ as $\lambda$ for short. The MAP estimator of the parameters $\theta$ is then given by:
 
 $$
-\hat{\theta} = \arg \min_{\theta} - \ln{\mathcal{P}(\theta | \mathcal{X}, \mathcal{Y})} + \lambda \Vert\theta\Vert_2^2
+\hat{\theta} = \arg \min_{\theta} \left\{- \ln{\mathcal{P}(\theta | \mathcal{X}, \mathcal{Y})} + \lambda \Vert\theta\Vert_2^2 \right\}
 $$
 
 The $\lambda$ is called the regularization hyperparameter that controls the strength of the prior. The larger the $\lambda$, the more the posterior is regularized, and the smaller the parameters $\theta$ are estimated. In this case, the log-Gaussian prior $\mathcal{N}\left(0, \frac{1}{2\lambda}I\right)$ is equivalent to the L2 regularization term in Ridge regression. In fact, we can also use other regularization terms such as L1 (Lasso regression), or both L1 and L2 (Elastic Net).
+
+**As we defined the MAP, we can conclude that MLE is just a special case of MAP when the prior follows a uniform distribution.**
 
 ## What's Next?
 
